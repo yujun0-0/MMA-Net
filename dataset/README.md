@@ -15,7 +15,7 @@ Video Instance Lane Detection*** [[pdf](https://arxiv.org/)], which can be downl
    
     **PNG-format images**
     
-    >The images are in **'P' model**, the points of each lane are fitted into a curve by third-order polynomial, and expanded into a lane-region with a certain width. Empirically, on 1,920 �� 1,080 frames, the lane width is 30 pixels. For lower-resolution
+    >The images are in **'P' model**, the points of each lane are fitted into a curve by third-order polynomial, and expanded into a lane-region with a certain width. Empirically, on 1,920 ¡Á 1,080 frames, the lane width is 30 pixels. For lower-resolution
 frames, the width is reduced proportionally.
 
     **JSON-format files**
@@ -45,7 +45,7 @@ frames, the width is reduced proportionally.
     **`id:`** The sequential index of lanes : 1, 2, 3, 4, 5, 6.    
     **`lane_id:`** A label reflects its relative position to the ego vehicle, i.e., an even label 2i indicates the i-th lane to the right of vehicle while an odd label 2i - 1 indicates the i-th lane to the left of vehicle (i = 1, 2, 3, 4), the example as follows:   
     
-     <img src="https://z3.ax1x.com/2021/08/19/fHS83T.png" height = "230" alt="ͼƬ����" align=center />
+     <img src="https://z3.ax1x.com/2021/08/19/fHS83T.png" height = "230" alt="Í¼Æ¬Ãû³Æ" align=center />
 
     **`attribute:`** Linetype of each lane, total 10 linetypes, the correspondence is as follows:
    
@@ -94,12 +94,12 @@ frames, the width is reduced proportionally.
 
 3. **Dataset Features and Statistics**
 
-    <img src="https://z3.ax1x.com/2021/08/19/fHSgDH.png" width = "740" height = "250" alt="ͼƬ����" align=center />
+    <img src="https://z3.ax1x.com/2021/08/19/fHSgDH.png" width = "740" height = "250" alt="Í¼Æ¬Ãû³Æ" align=center />
     
     `Figure 2 (a) shows the frame-level frequency of such co-occurrence of the 10 scenarios in VIL-100.`        
-    `Figure 2 (b) shows the total number of frames for each scenario �C a frame with co-occurred scenarios is counted for all present scenarios.`
+    `Figure 2 (b) shows the total number of frames for each scenario ¨C a frame with co-occurred scenarios is counted for all present scenarios.`
 
-    <img src="https://z3.ax1x.com/2021/08/19/fHSZjg.png" width = "900" height = "300" style="margin-bottom:20px" alt="ͼƬ����" align=center />
+    <img src="https://z3.ax1x.com/2021/08/19/fHSZjg.png" width = "900" height = "300" style="margin-bottom:20px" alt="Í¼Æ¬Ãû³Æ" align=center />
 
     `Figure 3 (a) shows the linetype distribution.`        
     `Figure 3 (b) shows the statistics of the number of lanes per frame.`    
@@ -169,7 +169,7 @@ All sequences if not stated differently are owned by Tianjin University and Auto
 Please cite `VIL-100` in your publications if they help your research:
 
     @inproceedings{VIL100_ICCV_2021,
-      author    = {?????},
+      author    = {Yujun Zhang, Lei Zhu, Wei Feng, Huazhu Fu, Mingqian Wang, Qingxia Li, Cheng Li and Song Wang},
       title     = {VIL-100: A New Dataset and A Baseline Model for Video Instance Lane Detection},
       booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
       year      = {2021}
