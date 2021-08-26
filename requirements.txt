@@ -21,6 +21,8 @@ line-profiler==3.1.0
 matplotlib==3.3.3
 MedPy==0.4.0
 networkx==2.5
+
+#What's this??????
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1604945999799/work
 olefile==0.44
 opencv-python==4.4.0.46
@@ -58,3 +60,8 @@ urllib3==1.26.2
 visdom==0.1.8.9
 wcwidth==0.2.5
 websocket-client==0.57.0
+
+
+
+# Many dependent packages cannot be downloaded via pip or conda.
+# How did you configure the environment???
