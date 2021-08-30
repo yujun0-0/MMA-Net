@@ -21,7 +21,7 @@ line-profiler==3.1.0
 matplotlib==3.3.3
 MedPy==0.4.0
 networkx==2.5
-numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1604945999799/work
+numpy
 olefile==0.44
 opencv-python==4.4.0.46
 parso==0.7.1
