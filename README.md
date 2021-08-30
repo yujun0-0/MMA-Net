@@ -70,7 +70,7 @@
         python evaluate_iou.py      # `data_root` should be set as your VIL-100 dataset path in `evaluate_iou.py`
         ```
     
-    3. **<font color="red">Atention!! if you want to evaluation results one more time, please delete all folders/files under `MMA-Net/evaluation/txt/results_txt` </font>.**
+    3. **<font color="red">Attention!! if you want to evaluation results one more time, please delete all folders/files under `MMA-Net/evaluation/txt/results_txt` </font>.**
 
 
 
