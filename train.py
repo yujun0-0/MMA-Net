@@ -5,7 +5,6 @@ from libs.utils.loss import *
 from libs.utils.utility import write_mask, save_checkpoint, adjust_learning_rate
 from libs.models.STM import STM
 from libs.models.Att import Att
-from apex import amp
 
 import torch
 import torch.nn as nn
