@@ -34,7 +34,7 @@
     ```python3
     python3 train.py --gpu ${GPU-IDS}
     ```
-2. To test the STM network, run following command
+2. To test the MMA network, run following command
     ```python3
     python3 test.py
     ```
