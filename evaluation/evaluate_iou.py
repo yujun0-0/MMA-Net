@@ -1,10 +1,10 @@
 import os
 import platform
 import sys
+sys.path.append("..") 
 from skimage.io import imread
 from evaluation.dist_utils import is_main_process, dist_print, synchronize
 
-sys.path.append('')
 
 
 def read_helper(path):
