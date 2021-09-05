@@ -4,7 +4,9 @@
 2. Please see **INSTALL.md** to install environment and evaluation tools
 
 3. Before training, we should download datasets-VIL100 and models
-    - datasets :  https://pan.baidu.com/s/1NkP_5LMLTn6qsu9pSbyi0g - iy16 
+    - datasets : 
+      (Baidu Disk) https://pan.baidu.com/s/1NkP_5LMLTn6qsu9pSbyi0g - iy16 
+      (Google Drive) https://drive.google.com/drive/folders/178_SSeQ4M1hI3BrTonhiTrpOWTEAenLE
     - models : https://pan.baidu.com/s/1_o13TBbTf258-j7iACDS2Q - sgh2 
         
         - The first training stage loads the model: **initial_STM**
