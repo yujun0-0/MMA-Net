@@ -5,7 +5,7 @@
 
 3. Before training, we should download datasets-VIL100 and models
 
-       (Google Drive) : https://drive.google.com/drive/folders/178_SSeQ4M1hI3BrTonhiTrpOWTEAenLE
+    (Google Drive) : https://drive.google.com/drive/folders/178_SSeQ4M1hI3BrTonhiTrpOWTEAenLE
     
     - datasets (Baidu Disk) : https://pan.baidu.com/s/1NkP_5LMLTn6qsu9pSbyi0g - iy16       
     - models (Baidu Disk) : https://pan.baidu.com/s/1_o13TBbTf258-j7iACDS2Q - sgh2 
