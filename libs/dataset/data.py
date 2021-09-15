@@ -75,7 +75,7 @@ class VIL(BaseData):
 
         dbfile = os.path.join(data_dir, 'data', 'db_info.yaml')
         self.imgdir = os.path.join(data_dir, 'JPEGImages')
-        self.annodir = os.path.join(data_dir, 'old_GT/Annoted_Instance_30free')
+        self.annodir = os.path.join(data_dir, 'Annotations')
 
         self.root = data_dir
 
