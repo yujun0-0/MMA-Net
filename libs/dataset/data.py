@@ -71,7 +71,7 @@ class VIL(BaseData):
     def __init__(self, train=True, sampled_frames=3,
                  transform=None, max_skip=5, increment=5, samples_per_video=10):
 
-        data_dir = os.path.join(ROOT, 'VIL')
+        data_dir = os.path.join(ROOT, 'VIL100')
 
         dbfile = os.path.join(data_dir, 'data', 'db_info.yaml')
         self.imgdir = os.path.join(data_dir, 'JPEGImages')
