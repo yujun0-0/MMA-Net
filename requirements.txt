@@ -9,4 +9,4 @@ matplotlib==3.3.3
 pillow>=8.2.0
 imgaug==0.4.0
 easydict==1.9
-pyyaml==5.3.1
+pyyaml>=5.3.1
