@@ -12,8 +12,8 @@
     
 
         
-        - The first training stage loads the model: **initial_STM**
-        - The second training stage loads the model: **resume STM** and **resume ATT**
+        - Trained model on the first training stage: **initial_STM**
+        - Trained model on the second training stage: **resume STM** and **resume ATT**
 
 4. Put them under this structure
     
