@@ -147,12 +147,15 @@ def main():
             raise TypeError('unknown training loss %s' % opt.loss)
 
         if opt.solver == 'sgd':
-
+            
+            params = [{"params": net.parameters()},
+                      {"params": att.parameters()}]
             optimizer = optim.SGD(net.parameters(), lr=opt.learning_rate,
                                   momentum=opt.momentum[0], weight_decay=opt.weight_decay)
+            
         elif opt.solver == 'adam':
 
-            params = [{"params": net.Decoder.parameters(), "lr": opt.learning_rate},
+            params = [{"params": net.parameters(), "lr": opt.learning_rate},
                       {"params": att.parameters(),  "lr": opt.learning_rate}]
             optimizer = optim.Adam(params, betas=opt.momentum, weight_decay=opt.weight_decay)
         else:
