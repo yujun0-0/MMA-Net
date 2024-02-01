@@ -2,7 +2,7 @@ numpy==1.19.4
 torch==1.0.1
 torchvision==0.2.2
 scikit-image==0.17.2
-scikit-learn==0.23.2
+scikit-learn==1.0.1
 progress==1.5
 opencv-python==4.4.0.46
 matplotlib==3.3.3
